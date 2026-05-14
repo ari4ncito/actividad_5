@@ -37,7 +37,7 @@ class MainApp extends StatelessWidget {
 
                   const SizedBox(height: 20),
 
-                  // TEXTO
+                  
                   const Text(
                     "La mousse de chocolate es un postre clásico francés, ligero y esponjoso, elaborado principalmente con chocolate fundido y claras de huevo a punto de nieve, a menudo complementado con nata o yemas.",
                     textAlign: TextAlign.center,
@@ -55,7 +55,7 @@ class MainApp extends StatelessWidget {
                     
                       children: [
 
-                        // ESTRELLAS
+                        
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: const [
@@ -110,7 +110,7 @@ class MainApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
 
-                            // PREPARACION
+                            
                             Column(
                               children: const [
                                 Icon(
@@ -129,7 +129,7 @@ class MainApp extends StatelessWidget {
 
                             const SizedBox(width: 25),
 
-                            // COCCION
+                            
                             Column(
                               children: const [
                                 Icon(
@@ -148,7 +148,7 @@ class MainApp extends StatelessWidget {
 
                             const SizedBox(width: 25),
 
-                            // PORCIONES
+                            
                             Column(
                               children: const [
                                 Icon(
@@ -173,7 +173,6 @@ class MainApp extends StatelessWidget {
               ),
             ),
 
-            // LADO DERECHO - IMAGEN
             Expanded(
               child: Image.asset(
                 'assets/images/mousse.webp',
